@@ -19,7 +19,7 @@ abstract public class Sounds {
       String myState;
 
       int min = 0;
-      int max = sound.length;
+      int max = sound.length-1;
       int diff = max - min;
       Random random = new Random();
       int i = random.nextInt(diff + 1);
