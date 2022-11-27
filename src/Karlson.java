@@ -18,13 +18,9 @@ public class Karlson extends Sounds {
 
 //    задать массив с ограниченным количествомgfvznb
 //    сделать StackOverflowErorr
-//public class App {
-//    public static void main(String[] args) {
-//        f();
-//    }
-//    public static void f() throws RuntimeException {
-//    }
-//}
+public class App {
+
+}
     public List<String> listOfMoves = new ArrayList<>(Arrays.asList(carlMoves));
 
     public String[] carlAction = new String[] {"Stay"};
