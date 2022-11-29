@@ -1,6 +1,6 @@
 import IdChecker.IdChecker;
 import IdChecker.getIds;
-
+import IdChecker.ErrorLocal;
 
 import java.util.ArrayList;
 
@@ -16,6 +16,10 @@ public class Main {
         Baby baby = new Baby();
         Bimbo bimbo = new Bimbo();
         getIds Ids = new getIds();
+
+        ErrorLocal error = new ErrorLocal();
+        error.recursive(10);
+
 
         ArrayList<Object> models= Ids.ids(Karl.uniqueID, freck.uniqueID, baby.uniqueID, bimbo.uniqueID);
 

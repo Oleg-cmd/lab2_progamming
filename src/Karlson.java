@@ -16,11 +16,7 @@ public class Karlson extends Sounds {
     // ничего не делать, метнуться кудахтать, визжать, взмывать
     public String[] carlMoves = new String[] {"Stay","Rush", "Cackle", "Squeal", "Soar", "Fly"};
 
-//    задать массив с ограниченным количествомgfvznb
-//    сделать StackOverflowErorr
-public class App {
 
-}
     public List<String> listOfMoves = new ArrayList<>(Arrays.asList(carlMoves));
 
     public String[] carlAction = new String[] {"Stay"};
