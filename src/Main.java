@@ -17,8 +17,8 @@ public class Main {
         Bimbo bimbo = new Bimbo();
         getIds Ids = new getIds();
 
-        ErrorLocal error = new ErrorLocal();
-        error.recursive(10);
+//        ErrorLocal error = new ErrorLocal();
+//        error.recursive(100);
 
 
         ArrayList<Object> models= Ids.ids(Karl.uniqueID, freck.uniqueID, baby.uniqueID, bimbo.uniqueID);

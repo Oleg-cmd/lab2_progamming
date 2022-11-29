@@ -9,7 +9,7 @@ public class ErrorLocal {
     public static void recursive(int i){
         while(i != 0){
             i = i+ 1;
-            System.out.println(i);
+//            System.out.println(i);
             recursive(i);
 
         }
